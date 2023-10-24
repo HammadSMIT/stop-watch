@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch </title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        <style>
+            h1 {
+                display: inline-block;
+                */
+            }
+
+            div>h1 {
+                width: 45px;
+
+            }
+
+            body {
+                display: grid;
+                place-items: center;
+                height: 100vh;
+                background: rgb(60, 179, 113);
+            }
+
+            .timer {
+                border: white 2px solid;
+                background-color: #ffffff;
+                border-radius: 30px;
+                padding: 10px;
+                padding-top: 30px;
+                /* margin-top: -10px  ; */
+                height: 100px;
+                width: 300px;
+                z-index: 10;
+
+
+
+            }
+
+            .timer>h1 {
+                font-family: 'hammad';
+                /* margin-top: 10px; */
+                font-size: 50px !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            
+
+
+            <div class="timer">
+                <h1 id="min"   >0</h1>
+                <h1>:</h1>
+                <h1 id="sec" >0</h1>
+                <h1>:</h1>
+                <h1 id="msec" >0</h1>
+                
+
+            </div>
+            <div  class="btns" >
+                <button id="START" onclick="START()" type="button" class="btn btn-primary buttons ">START</button>
+                <button  onclick="STOP()" type="button" class="btn btn-danger buttons">STOP</button>
+                <button  onclick="Reset()" type="button" class="btn btn-warning buttons  ">RESET</button>
+
+            </div>
+
+
+
+
+
+        </center>
+
+
+
+        <Script src="app.js"></Script>
+    </body>
+
+    </html>
+</body>
+
+</html>
